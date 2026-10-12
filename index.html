@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdullah Kashif | ACCA Finalist, Audit & Financial Analysis</title>
+<meta name="description" content="Abdullah Kashif is an ACCA finalist (9 exemptions) working across internal audit, IT general controls, financial analysis and modelling.">
+<meta name="theme-color" content="#0f1117">
+<script>
+(function(){try{var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--soft:#eceef4;--text:#11141c;--muted:#4b5468;--line:#dde1ea;--accent:#4f46e5;--accent-ink:#4338ca;--btn:#4f46e5;--shadow:0 18px 40px -22px rgba(17,20,28,.35)}
+[data-theme=dark]{--bg:#0f1117;--surface:#171a23;--soft:#1e222d;--text:#eceef5;--muted:#a1a9bb;--line:#272c39;--accent:#8b8cf8;--accent-ink:#a9aafc;--shadow:0 18px 40px -22px rgba(0,0,0,.8)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;transition:background .3s,color .3s;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:6rem 0}
+h1,h2,h3{line-height:1.12;letter-spacing:-.025em}
+h2{font-size:clamp(1.8rem,3.4vw,2.5rem);font-weight:800;margin-bottom:.6rem}
+.lead{color:var(--muted);max-width:60ch;margin-bottom:2.5rem}
+.ic{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.skip{position:absolute;left:-999px;top:.5rem;background:var(--btn);color:#fff;padding:.5rem 1rem;border-radius:8px;z-index:99}
+.skip:focus{left:.5rem}
+
+/* nav */
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:800;font-size:1.15rem;letter-spacing:-.03em}
+.logo span{color:var(--accent-ink)}
+.menu{display:flex;align-items:center;gap:.4rem;list-style:none;padding:0}
+.menu a{display:block;padding:.45rem .8rem;border-radius:8px;font-size:.92rem;font-weight:500;color:var(--muted);transition:color .2s,background .2s}
+.menu a:hover{color:var(--text);background:var(--soft)}
+.menu a.active{color:var(--text);box-shadow:inset 0 -2px 0 var(--accent);border-radius:8px 8px 0 0}
+.tools{display:flex;gap:.5rem;align-items:center}
+.icon-btn{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer;position:relative;overflow:hidden;transition:border-color .2s,transform .2s}
+.icon-btn:hover{border-color:var(--accent)}
+.icon-btn:active{transform:scale(.92)}
+#theme .ic{position:absolute;transition:transform .5s cubic-bezier(.5,1.6,.4,1),opacity .3s}
+[data-theme=dark] #theme .sun{transform:rotate(90deg) scale(.3);opacity:0}
+[data-theme=light] #theme .moon{transform:rotate(-90deg) scale(.3);opacity:0}
+.burger{display:none}
+.burger i{display:block;width:18px;height:2px;background:currentColor;border-radius:2px;transition:transform .3s,opacity .2s}
+.burger i+i{margin-top:4px}
+.burger[aria-expanded=true] i:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.burger[aria-expanded=true] i:nth-child(2){opacity:0}
+.burger[aria-expanded=true] i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.55rem;padding:.8rem 1.35rem;border-radius:999px;font-weight:600;font-size:.95rem;border:1px solid transparent;cursor:pointer;font-family:inherit;transition:transform .2s,box-shadow .2s,background .2s}
+.btn.primary{background:var(--btn);color:#fff;box-shadow:0 10px 24px -10px var(--btn)}
+.btn.primary:hover{transform:translateY(-2px);background:#4338ca}
+.btn.ghost{border-color:var(--line);background:var(--surface);color:var(--text)}
+.btn.ghost:hover{border-color:var(--accent);transform:translateY(-2px)}
+
+/* hero */
+.hero{padding:5rem 0 6rem}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:4rem;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.4vw,4.1rem);font-weight:800;letter-spacing:-.04em;margin-bottom:1.3rem}
+.hero p.sub{font-size:1.1rem;color:var(--muted);max-width:50ch;margin-bottom:2rem}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.photo{position:relative;justify-self:center;width:min(100%,380px)}
+.photo::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1.5px solid var(--accent);border-radius:28px;opacity:.55}
+.photo img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;border-radius:24px;box-shadow:var(--shadow);background:var(--soft)}
+.ledger{position:absolute;left:-2.2rem;bottom:1.6rem;width:min(290px,86%);list-style:none;padding:1rem 1.15rem;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);font-size:.84rem}
+.ledger li{display:flex;align-items:baseline;gap:.5rem;padding:.2rem 0}
+.ledger li::after{content:"";order:1;flex:1;border-bottom:1px dotted var(--muted);opacity:.6;transform:translateY(-3px)}
+.ledger b{order:2;font-variant-numeric:tabular-nums;font-size:1rem;color:var(--accent-ink)}
+.ledger span{order:0;color:var(--muted)}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.hero .wrap>*{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+.hero .wrap>:nth-child(2){animation-delay:.15s}
+
+/* about */
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:3.5rem}
+.about p+p{margin-top:1rem}
+.about p{color:var(--muted)}
+.edu{display:grid;gap:1rem;align-content:start}
+.edu div{padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px}
+.edu h3{font-size:1rem;margin-bottom:.15rem}
+.edu small{color:var(--muted);font-size:.88rem}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem}
+.skills article{padding:1.4rem;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.skills h3{font-size:1.02rem;margin-bottom:1rem}
+.tags{display:flex;flex-wrap:wrap;gap:.45rem;list-style:none;padding:0}
+.tags li{padding:.3rem .75rem;border-radius:999px;background:var(--soft);font-size:.82rem;font-weight:500;border:1px solid transparent;transition:border-color .2s,color .2s}
+.tags li:hover{border-color:var(--accent);color:var(--accent-ink)}
+
+/* timeline */
+.timeline{list-style:none;padding:0 0 0 1.8rem;border-left:2px solid var(--line);display:grid;gap:2rem;max-width:760px}
+.timeline li{position:relative}
+.timeline li::before{content:"";position:absolute;left:calc(-1.8rem - 7px);top:.45rem;width:12px;height:12px;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.timeline time{font-size:.85rem;font-weight:600;color:var(--accent-ink)}
+.timeline h3{font-size:1.15rem;margin:.1rem 0}
+.timeline .org{color:var(--muted);font-size:.92rem;font-weight:500}
+.timeline p{color:var(--muted);margin-top:.4rem;max-width:62ch}
+
+/* projects */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.4rem}
+.card{display:flex;flex-direction:column;padding:1.7rem;background:var(--surface);border:1px solid var(--line);border-radius:12px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:var(--shadow)}
+.card .ctx{font-size:.84rem;color:var(--muted);margin-bottom:.4rem}
+.card h3{font-size:1.2rem;margin-bottom:.8rem}
+.card p{color:var(--muted);font-size:.95rem;margin-bottom:1.2rem}
+.card ul.pts{padding-left:1.1rem;color:var(--muted);font-size:.92rem;display:grid;gap:.4rem;margin-bottom:1.4rem}
+.card .tags{margin-top:auto}
+.fig{font-weight:700;color:var(--accent-ink);font-variant-numeric:tabular-nums}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem}
+form{display:grid;gap:1.1rem}
+label{display:grid;gap:.4rem;font-size:.9rem;font-weight:600}
+input,textarea{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;transition:border-color .2s,box-shadow .2s}
+input:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
+textarea{min-height:140px;resize:vertical}
+.note{font-size:.85rem;color:var(--muted)}
+.links{list-style:none;padding:0;display:grid;gap:.9rem;align-content:start}
+.links a,.links .loc{display:flex;align-items:center;gap:.9rem;padding:1rem 1.2rem;background:var(--surface);border:1px solid var(--line);border-radius:12px;font-weight:500;transition:border-color .2s,transform .2s}
+.links a:hover{border-color:var(--accent);transform:translateX(4px)}
+.links .ic{color:var(--accent-ink);width:1.3em;height:1.3em}
+.links small{display:block;color:var(--muted);font-weight:400;font-size:.8rem;line-height:1.3}
+footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--muted);font-size:.88rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+
+@media (max-width:900px){
+  .hero .wrap,.about,.contact{grid-template-columns:1fr;gap:3rem}
+  .photo{order:-1;width:min(100%,320px);margin-left:1rem}
+  .ledger{left:-1rem}
+  section{padding:4.5rem 0}
+  .burger{display:grid}
+  .menu{position:fixed;top:68px;right:0;bottom:0;width:min(300px,82vw);flex-direction:column;align-items:stretch;gap:.3rem;padding:1.5rem;background:var(--bg);border-left:1px solid var(--line);transform:translateX(105%);transition:transform .35s cubic-bezier(.2,.7,.2,1);visibility:hidden}
+  .menu.open{transform:none;visibility:visible}
+  .menu a{padding:.8rem 1rem;font-size:1rem}
+  .menu a.active{box-shadow:none;background:var(--soft);border-radius:8px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+  <symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="in" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zm6.5 0h3.8v1.6c.5-1 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.2c0-1.3-.1-2.800-1.800-2.800s-2.100 1.300-2.100 2.700V21h-4z"/></symbol>
+  <symbol id="dl" viewBox="0 0 24 24"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap bar">
+    <a href="#top" class="logo" aria-label="Abdullah Kashif, back to top">Abdullah<span>.</span></a>
+    <nav aria-label="Main" class="tools">
+      <ul class="menu" id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch to light theme" aria-pressed="true">
+        <svg class="ic sun" aria-hidden="true"><use href="#sun"/></svg>
+        <svg class="ic moon" aria-hidden="true"><use href="#moon"/></svg>
+      </button>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span><i></i><i></i><i></i></span></button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <h1>I find the gaps in financial processes and design the fixes.</h1>
+      <p class="sub">I'm Abdullah Kashif, an ACCA finalist with 9 exemptions and a Bachelor of Accountancy, Management and Law from IoBM. I work across internal audit, IT general controls, financial analysis and modelling.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="Abdullah_Kashif_Resume.pdf" download><svg class="ic" aria-hidden="true"><use href="#dl"/></svg>Download resume</a>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="headshot.jpg" alt="Portrait of Abdullah Kashif in a navy blazer and white shirt" width="768" height="960" fetchpriority="high">
+      <ul class="ledger" aria-label="Key figures">
+        <li><span>ACCA exemptions</span><b>9</b></li>
+        <li><span>Compliance gaps found</span><b>7</b></li>
+        <li><span>Implementation plan (months)</span><b>12</b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="about" aria-labelledby="about-h">
+  <div class="wrap about">
+    <div>
+      <h2 id="about-h">About me</h2>
+      <p>My work sits where accounting meets how a business actually runs. I walk through processes end to end, find where controls and reporting break down, and write down practical fixes people can implement.</p>
+      <p>I like numbers that lead to a decision: a capital structure change, a shorter cash conversion cycle, or a portfolio matched to a client's risk. I'm comfortable with IFRS, Excel modelling and the legal side of corporate and banking work.</p>
+      <p>Outside coursework I play football for IoBM and plan events as Director of Events for the Vanquishers sports society.</p>
+    </div>
+    <div class="edu">
+      <div><h3>Bachelor of Accountancy, Management and Law</h3><small>Institute of Business Management (IoBM), 2022 to 2026</small></div>
+      <div><h3>ACCA Finalist</h3><small>Association of Chartered Certified Accountants, 9 exemptions granted</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" aria-labelledby="skills-h">
+  <div class="wrap">
+    <h2 id="skills-h">Core skills</h2>
+    <p class="lead">What I use to review processes, test controls and turn financial data into recommendations.</p>
+    <div class="skills">
+      <article><h3>Audit and controls</h3><ul class="tags"><li>IT General Controls (ITGC)</li><li>Audit procedures and documentation</li><li>Gap analysis</li><li>Business process mapping</li></ul></article>
+      <article><h3>Finance and reporting</h3><ul class="tags"><li>IFRS</li><li>Financial statement analysis</li><li>Working capital optimization</li><li>Corporate and banking law</li></ul></article>
+      <article><h3>Analysis and tools</h3><ul class="tags"><li>Excel financial modelling</li><li>Data analysis</li><li>Requirements gathering</li><li>Requirements documentation</li><li>UAT fundamentals</li></ul></article>
+      <article><h3>Working style</h3><ul class="tags"><li>Problem solving</li><li>Analytical thinking</li><li>Client communication</li><li>Teamwork</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section id="experience" aria-labelledby="exp-h">
+  <div class="wrap">
+    <h2 id="exp-h">Experience and achievements</h2>
+    <p class="lead">Education, professional qualification and leadership, most recent first.</p>
+    <ol class="timeline">
+      <li><time>Aug 2024 to present</time><h3>Director, Events</h3><div class="org">Vanquishers Sports Society, IoBM</div><p>Plan and coordinate events for the institute's sports society.</p></li>
+      <li><time>2022 to 2026</time><h3>Bachelor of Accountancy, Management and Law</h3><div class="org">Institute of Business Management (IoBM)</div><p>Capstone on the internal audit function at Faysal Funds, plus coursework in financial analysis, modelling and valuation.</p></li>
+      <li><time>ACCA</time><h3>Finalist with 9 exemptions</h3><div class="org">Association of Chartered Certified Accountants</div><p>Nine papers exempted through the degree, leaving the final stage of the qualification.</p></li>
+      <li><time>Aug 2022 to present</time><h3>Football team member</h3><div class="org">IoBM</div><p>Long-running commitment to team sport alongside full-time study.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="projects" aria-labelledby="proj-h">
+  <div class="wrap">
+    <h2 id="proj-h">Selected work</h2>
+    <p class="lead">Three academic projects that show how I approach audit, valuation and portfolio risk.</p>
+    <div class="grid">
+      <article class="card">
+        <div class="ctx">Capstone project, BS (Hons) Accountancy, Management and Law</div>
+        <h3>Evaluation of the internal audit function at Faysal Funds</h3>
+        <ul class="pts">
+          <li>Walked through business processes end to end and found <span class="fig">7</span> critical compliance gaps.</li>
+          <li>Assessed IT general controls for data accuracy, access and operational risk.</li>
+          <li>Built a <span class="fig">12-month</span> implementation blueprint to close the gaps and streamline reporting.</li>
+        </ul>
+        <ul class="tags"><li>Internal audit</li><li>ITGC</li><li>Gap analysis</li><li>Process mapping</li></ul>
+      </article>
+      <article class="card">
+        <div class="ctx">Term report, Principles of Business Finance</div>
+        <h3>Financial performance and valuation of Nestlé Pakistan</h3>
+        <ul class="pts">
+          <li>Ran vertical, horizontal and ratio analysis on 2022 to 2024 statements.</li>
+          <li>Traced the working capital and cash conversion cycle to find operational bottlenecks.</li>
+          <li>Valued the company using EPS of <span class="fig">PKR 393.18</span> and a P/E of <span class="fig">18.05x</span>, then proposed capital structure and revenue model changes.</li>
+        </ul>
+        <ul class="tags"><li>Ratio analysis</li><li>Valuation</li><li>Working capital</li><li>Capital structure</li></ul>
+      </article>
+      <article class="card">
+        <div class="ctx">Financial modelling case study</div>
+        <h3>Portfolio selection and CAPM optimization</h3>
+        <ul class="pts">
+          <li>Calculated annualized returns, standard deviations and correlation matrices from multi-decade data.</li>
+          <li>Built a 3-asset efficient frontier and Capital Market Line to find the tangency portfolio with the highest Sharpe ratio.</li>
+          <li>Computed betas and alphas to separate systematic risk and shape risk-tailored allocations.</li>
+        </ul>
+        <ul class="tags"><li>CAPM</li><li>Efficient frontier</li><li>Sharpe ratio</li><li>Excel</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <h2 id="contact-h">Get in touch</h2>
+    <p class="lead">Open to internships, graduate roles and conversations about audit, finance and process work.</p>
+    <div class="contact">
+      <form id="form" novalidate>
+        <label>Your name<input name="name" autocomplete="name" required></label>
+        <label>Your email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Message<textarea name="message" required></textarea></label>
+        <div><button class="btn primary" type="submit">Send message</button></div>
+        <p class="note" id="status" role="status">This opens your email app with the message filled in.</p>
+      </form>
+      <ul class="links">
+        <li><a href="mailto:kashifabdullah607@gmail.com"><svg class="ic" aria-hidden="true"><use href="#mail"/></svg><span><small>Email</small>kashifabdullah607@gmail.com</span></a></li>
+        <li><a href="https://www.linkedin.com/in/abdullahkashif/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#in"/></svg><span><small>LinkedIn</small>linkedin.com/in/abdullahkashif</span></a></li>
+        <li><a href="tel:+923310265268"><svg class="ic" aria-hidden="true"><use href="#phone"/></svg><span><small>Phone</small>+92 331 0265268</span></a></li>
+        <li><div class="loc"><svg class="ic" aria-hidden="true"><use href="#pin"/></svg><span><small>Location</small>Karachi, Pakistan</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>&copy; <span id="year">2026</span> Abdullah Kashif</span><a href="#top">Back to top</a></div></footer>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme');
+  function sync(){var d=root.dataset.theme==='dark';btn.setAttribute('aria-pressed',d);btn.setAttribute('aria-label',d?'Switch to light theme':'Switch to dark theme');
+    document.querySelector('meta[name=theme-color]').content=d?'#0f1117':'#f6f7fa'}
+  sync();
+  btn.addEventListener('click',function(){
+    root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';
+    try{localStorage.setItem('theme',root.dataset.theme)}catch(e){}
+    sync();
+  });
+
+  var menu=document.getElementById('menu'),burger=document.getElementById('burger');
+  function setMenu(o){menu.classList.toggle('open',o);burger.setAttribute('aria-expanded',o);burger.setAttribute('aria-label',o?'Close menu':'Open menu')}
+  burger.addEventListener('click',function(){setMenu(!menu.classList.contains('open'))});
+  menu.addEventListener('click',function(e){if(e.target.tagName==='A')setMenu(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false)});
+
+  var links=[].slice.call(menu.querySelectorAll('a'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(en){
+      if(en.isIntersecting)links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+en.target.id)})
+    })},{rootMargin:'-45% 0px -50% 0px'});
+    links.forEach(function(a){var s=document.querySelector(a.getAttribute('href'));if(s)io.observe(s)});
+  }
+
+  var form=document.getElementById('form'),status=document.getElementById('status');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var f=form.elements;
+    if(!f.name.value.trim()||!/^\S+@\S+\.\S+$/.test(f.email.value)||!f.message.value.trim()){
+      status.textContent='Please enter your name, a valid email and a message.';return;
+    }
+    var body=f.message.value+'\n\n'+f.name.value+'\n'+f.email.value;
+    location.href='mailto:kashifabdullah607@gmail.com?subject='+encodeURIComponent('Portfolio enquiry from '+f.name.value)+'&body='+encodeURIComponent(body);
+    status.textContent='Your email app should open. If it does not, write to kashifabdullah607@gmail.com.';
+  });
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
